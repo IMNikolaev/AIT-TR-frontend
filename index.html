@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html</title>
+    <style>
+        body {
+            background-image: url('Трава.jpg');
+        }
+
+        @keyframes blink {
+            0% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .blinking {
+            animation: blink 1s infinite;
+        }
+
+        @keyframes jump {
+            0% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-50px);
+            }
+
+            100% {
+                transform: translateY(0);
+            }
+        }
+
+        .jumping {
+            animation: jump 1s infinite;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- ЭТО НУ КОРОЧЕ ОНО ЗАГОЛОВОК НАЗЫВАЕТСЯ -->
+    <h1 class="blinking">Welcome to our site</h1>
+    <p class="jumping">HTML (HyperText Markup Language - язык гипертекстовой разметки) не является языком
+        программирования; это язык
+        разметки, используемый для определения структуры веб-страниц, посещаемых пользователями. Они могут иметь сложную
+        или простую структуру, всё зависит от замысла и желания веб-разработчика
+        <br />
+        HTML состоит из ряда элементов,
+        которые вы используете для того, чтобы охватить, обернуть или разметить различные части содержимого, чтобы оно
+        имело определённый вид или срабатывало определённым способом. Встроенные тэги могут преобразовать часть
+        содержимого в гиперссылку, по которой можно перейти на другую веб-страницу, выделить курсивом слова и так далее.
+        Например, рассмотрим следующую строку:
+    </p>
+    <img width="400" src="front.jpg" alt="meme about HTML">
+    <h2>Дальше идем</h2>
+    <h3>фрукты</h3>
+    <ul type="circle">
+        <li>Яблоко</li>
+        <li>Апельсин</li>
+        <li>Манго</li>
+    </ul>
+    <ol type="I">
+        <li>Печатаю тут!</li>
+        <li>Печатаю тут!</li>
+        <li>Печатаю тут!</li>
+    </ol>
+    <h4>PNG ОТВЕЧАЮ</h4>
+    <img width="300"
+        src="https://pngset.com/images/html-5-amp-clipart-free-html-css-javascript-svg-text-first-aid-number-symbol-transparent-png-1493251.png"
+        alt="">
+</body>
+
+</html>
